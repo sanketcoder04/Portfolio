@@ -73,7 +73,7 @@
 }
 @media (max-width: 1024px) { /* For tablets and small laptops */
     .cet-content img {
-        height: 400px; /* Reduce height */
+        height: 500px; /* Reduce height */
     }
 }
 
