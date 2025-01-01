@@ -71,6 +71,23 @@
     object-fit: cover;
     object-position: center;
 }
+@media (max-width: 1024px) { /* For tablets and small laptops */
+    .image-content-modal img {
+        height: 400px; /* Reduce height */
+    }
+}
+
+@media (max-width: 768px) { /* For mobile devices */
+    .image-content-modal img {
+        height: 300px; /* Further reduce height */
+    }
+}
+
+@media (max-width: 480px) { /* For very small devices */
+    .image-content-modal img {
+        height: 200px; /* Minimal height */
+    }
+}
 
 .image-content-explore img {
     width: 200px;
