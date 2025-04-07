@@ -71,6 +71,23 @@
     object-fit: cover;
     object-position: center;
 }
+@media (max-width: 1024px) { /* For tablets and small laptops */
+    .cet-content img {
+        height: 500px; /* Reduce height */
+    }
+}
+
+@media (max-width: 768px) { /* For mobile devices */
+    .cet-content img {
+        height: 300px; /* Further reduce height */
+    }
+}
+
+@media (max-width: 480px) { /* For very small devices */
+    .cet-content img {
+        height: 200px; /* Minimal height */
+    }
+}
 
 @media (max-width: 1024px) { /* For tablets and small laptops */
     .cet-content img {
